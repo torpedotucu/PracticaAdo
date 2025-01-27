@@ -9,7 +9,24 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+#region
+//create procedure SP_PEDIDOS_CLIENTE
+//(@nombre nvarchar(50))
+//as 
+//	declare @idEmpresa nvarchar(30)
+//	select @idEmpresa=CodigoCliente from clientes
+//	where Empresa=@nombre
+//	SELECT * FROM pedidos where CodigoCliente=@idEmpresa
+//go
+//Exec SP_PEDIDOS_CLIENTE Bocacho
 
+//create procedure SP_DELETE_PEDIDO
+//(@codigo nvarchar(50))
+//as 
+//	delete from pedidos where CodigoPedido=@codigo
+//go
+
+#endregion
 namespace PracticaAdo.Repositories
 {
     public class RepositoryPractica
