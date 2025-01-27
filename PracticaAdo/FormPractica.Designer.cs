@@ -71,6 +71,7 @@
             cmbclientes.Name = "cmbclientes";
             cmbclientes.Size = new Size(168, 37);
             cmbclientes.TabIndex = 1;
+            cmbclientes.SelectedIndexChanged += cmbclientes_SelectedIndexChanged;
             // 
             // label2
             // 
@@ -168,6 +169,7 @@
             lstpedidos.Name = "lstpedidos";
             lstpedidos.Size = new Size(223, 323);
             lstpedidos.TabIndex = 15;
+            lstpedidos.SelectedIndexChanged += lstpedidos_SelectedIndexChanged;
             // 
             // txtfechaentrega
             // 
@@ -236,6 +238,7 @@
             btneliminarpedido.TabIndex = 26;
             btneliminarpedido.Text = "Eliminar pedido";
             btneliminarpedido.UseVisualStyleBackColor = true;
+            btneliminarpedido.Click += btneliminarpedido_Click;
             // 
             // txtcodigopedido
             // 
